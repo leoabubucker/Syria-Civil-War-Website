@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>End Site</title>
+</head>
+<body style="background-color: black;">
+    <div class="main-container" style="height:100vh;">
+            <nav class="nav-bar" id="nav">
+                <div class="item left-side" id="lNav">
+                    <a class='no-style-link' href="index.html">The Syrian Civil War</a>
+                </div>
+                <div class="item center" id="cNav" style="opacity:0;">
+                    End Site
+                </div>
+                <div class="item right-side" id="rNav" style="cursor:pointer" onclick="toggleMenu()">
+                    Menu
+                </div>
+            </nav>
+
+            <div class="content-page">
+                <img src="endsite.jpg" style="z-index:0; position:absolute; height:280vh; min-width: 100vw;  opacity: 0.3;">
+                <a id="contactButton" href="citations.html" class="contact-button">  Work Cited</a>
+                <div class="hidden-overlay" id="hidden-overlay" style="width:100vw; height:100vh; display:none; z-index: 4; position: absolute; " onclick="hideMenu()"></div>
+                <aside class="sidebar" id="sideMenu">
+                    <ol class="hover-anim">
+                        <li><a class="no-style-link" href="index.html">Home</a></li>
+                        <li><a class="no-style-link" href="rally-point.html">Rally Point</a></li>
+                        <li><a class="no-style-link" href="destination1.html">Destination 1</a></li>
+                        <li><a class="no-style-link" href="destination2.html">Destination 2</a></li>
+                        <li><a class="no-style-link" href="destination3.html">Destination 3</a></li>
+                        <li><a class="no-style-link" href="end-site.html">End Site</a></li>
+                        <li><a class="no-style-link" href="citations.html">Citations</a></li>
+                    </ol>
+                </aside>
+                <div class="details" onclick="hideMenu()" style="font-weight: 600;">
+                    <div class="detail detail1">
+                        <h1> End Site</h1>
+                        <div class="underline lSlide-anim"></div>
+                        <p> 
+                            For our final site, we are here at the UNICEF headquarters in New York, NY. UNICEF, originally called the 
+                            United Nations International Children's Emergency Fund, now officially the United Nations Children's Fund, 
+                            is a UN agency that provides humanitarian aid to children globally. 
+                        </p>
+                        
+                    </div>
+                    <div class="detail detail2">
+                        <span class="material-symbols-outlined" style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            location_on
+                            </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-10vw);" class="same-line-text">UNICEF U.S. Headquarters (New York, NY) </p>
+                    </div>
+
+                   <div class="detail detail3">
+                    <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                        calendar_month
+                        </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-26vw);" class="same-line-text">Present Day</p>
+                    </div>
+                    
+                    <div class="detail detail4" >
+                        <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            info
+                            </span>
+                            <p style="transform:translateY(-8vh) translateX(7vw) ;" class="same-line-text">
+                                The crisis in Syria is one of the most complex emergencies in the world: around 90% of the population lives in poverty, more 
+                                than 50% of the <br> population are food insecure, and 2/3 of the population requires general assistance because of a worsening 
+                                economic crisis, continuing <br> hostilities, mass displacement, and devastated public infrastructure. 
+                                <br><br>
+                                While this crisis is ongoing, UNICEF is working to protect children and to help them cope with the impact of the conflict. 
+                                Through improving <br> psychosocial support and delivering lifesaving services, UNICEF and its partners continue to help children 
+                                struggling psychologically and <br> physically. Additionally, UNICEF and its partners are giving critical humanitarian assistance,
+                                such as safe water and access to vaccines and other <br> health and nutrition items. Finally, UNICEF and its partners are working 
+                                to safeguard the future of the affected children by improving school facilities <br> and training teachers. 
+                                
+                                
+                                
+                            </p>
+                        </div>
+                        <div class="detail detail5">
+                            <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                                movie
+                            </span>
+                            <iframe width="560" height="315" style="transform: translateY(-12vh);" src="https://www.youtube.com/embed/j2mg9bbgoIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="detail detail6">
+                            <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw) translateY(5vh); align-self: center;">
+                                analytics
+                            </span>
+                            <img src="endsite.png" width="800" height="500" style="transform:translateY(-15vh)">
+                        </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
+<script src="general.js"></script>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Destination 3</title>
+</head>
+<body style="background-color: black;">
+    <div class="main-container" style="height:100vh;">
+            <nav class="nav-bar" id="nav">
+                <div class="item left-side" id="lNav">
+                    <a class='no-style-link' href="index.html">The Syrian Civil War</a>
+                </div>
+                <div class="item center" id="cNav" style="opacity:0;">
+                    Destination 3
+                </div>
+                <div class="item right-side" id="rNav" style="cursor:pointer" onclick="toggleMenu()">
+                    Menu
+                </div>
+            </nav>
+
+            <div class="content-page">
+                <img src="destination3.png" style="z-index:0; position:absolute; height:210vh; min-width: 100vw;  opacity: 0.3;">
+                <a id="contactButton" href="end-site.html" class="contact-button">  End Site</a>
+                <div class="hidden-overlay" id="hidden-overlay" style="width:100vw; height:100vh; display:none; z-index: 4; position: absolute; " onclick="hideMenu()"></div>
+                <aside class="sidebar" id="sideMenu">
+                    <ol class="hover-anim">
+                        <li><a class="no-style-link" href="index.html">Home</a></li>
+                        <li><a class="no-style-link" href="rally-point.html">Rally Point</a></li>
+                        <li><a class="no-style-link" href="destination1.html">Destination 1</a></li>
+                        <li><a class="no-style-link" href="destination2.html">Destination 2</a></li>
+                        <li><a class="no-style-link" href="destination3.html">Destination 3</a></li>
+                        <li><a class="no-style-link" href="end-site.html">End Site</a></li>
+                        <li><a class="no-style-link" href="citations.html">Citations</a></li>
+                    </ol>
+                </aside>
+                <div class="details" onclick="hideMenu()" style="font-weight: 600;">
+                    <div class="detail detail1">
+                        <h1> Destination 3</h1>
+                        <div class="underline lSlide-anim"></div>
+                        <p> 
+                            For our third destination, we are watching a criticism video of the Assad regime by one of their own. 
+                            Bashar al-Assad's own cousin Rami Makhlouf released a trilogy of videos where he criticized the regime.
+                            We will take a look at what is considered a key moment in the growing rift among the leadership in the 
+                            Assad regime. 
+                        </p>
+                        
+                    </div>
+                    <div class="detail detail2">
+                        <span class="material-symbols-outlined" style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            location_on
+                            </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-13vw);" class="same-line-text">Syria (No Specific Location) </p>
+                    </div>
+
+                   <div class="detail detail3">
+                    <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                        calendar_month
+                        </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-22vw);" class="same-line-text">May 17, 2020</p>
+                    </div>
+                    
+                    <div class="detail detail4" >
+                        <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            info
+                            </span>
+                            <p style="transform:translateY(-8vh) translateX(9vw) ;" class="same-line-text">
+                                On May 17, 2020, Bashar al-Assad's Cousin, Rami Makhlouf, who was considered a crony to the Assad regime
+                                and Syria's richest man, released <br> the third video in a trilogy of critical videos against the regime. 
+                                Makhlouf claims that Assad's security forces have been arresting his staff to <br> pressure him to resign from 
+                                being the CEO of Syriatel, Syria's largest telecommunications company. Additionally, in his first video, 
+                                Makhlouf <br> plead with his audience for debt relief. 
+                                <br><br>
+                                The nature of the video and the person who it comes from makes it clear that the horrific nature of the 
+                                Syrian civil war is straining the key family <br> members of the Assad regime.  
+                                
+                                
+                            </p>
+                        </div>
+                         
+                        <div class="detail detail5">
+                            <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                                movie
+                            </span>
+                                <iframe style="transform: translateY(-15vh);" width="560" height="315" src="https://www.youtube.com/embed/Y5ZqmBOsbmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="detail detail6" style="height: 20vh; width: 70vw; background-color: lightgray; color:black; justify-content: center; align-content: center; transform: translateX(9vw); font-size: xx-large; font-weight: 300;">
+                            <p style="font-style: italic;">
+                                "Mr President, security apparatuses have started to infringe on people's freedom. Those are your people,
+                                your supporters."
+                                </p>
+
+                            <p> - Rami Makhlouf, First Cousin to President Bashar al-Assad</p>
+                        </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
+<script src="general.js"></script>

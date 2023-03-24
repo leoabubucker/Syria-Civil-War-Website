@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>The Rally Point</title>
+</head>
+<body style="background-color: black;">
+    <div class="main-container" style="height:100vh;">
+            <nav class="nav-bar" id="nav">
+                <div class="item left-side" id="lNav">
+                    <a class='no-style-link' href="index.html">The Syrian Civil War</a>
+                </div>
+                <div class="item center" id="cNav" style="opacity:0;">
+                    Rally Point
+                </div>
+                <div class="item right-side" id="rNav" style="cursor:pointer" onclick="toggleMenu()">
+                    Menu
+
+                </div>
+            </nav>
+
+            <div class="content-page">
+                <img src="rally_point.jpg" style="z-index:0; position:absolute; height:230vh; min-width: 100vw;  opacity: 0.3;">
+                <a id="contactButton" href="destination1.html" class="contact-button">  Destination 1</a>
+                <div class="hidden-overlay" id="hidden-overlay" style="width:100vw; height:100vh; display:none; z-index: 4; position: absolute; " onclick="hideMenu()"></div>
+                <aside class="sidebar" id="sideMenu">
+                    <ol class="hover-anim">
+                        <li><a class="no-style-link" href="index.html">Home</a></li>
+                        <li><a class="no-style-link" href="rally-point.html">Rally Point</a></li>
+                        <li><a class="no-style-link" href="destination1.html">Destination 1</a></li>
+                        <li><a class="no-style-link" href="destination2.html">Destination 2</a></li>
+                        <li><a class="no-style-link" href="destination3.html">Destination 3</a></li>
+                        <li><a class="no-style-link" href="end-site.html">End Site</a></li>
+                        <li><a class="no-style-link" href="citations.html">Citations</a></li>
+                    </ol>
+                </aside>
+                <div class="details" onclick="hideMenu()" style="font-weight: 600;">
+                    <div class="detail detail1">
+                        <h1> Welcome to the Tour!</h1>
+                        <div class="underline lSlide-anim"></div>
+                        <p> This is our Rally Point where we will look at the political oppression in Syria. The Syrian civil war started
+                            here, in Daraa, Syria, and is ongoing as of 2023. <br>This first event looks at the beginnings of the Civil War: 
+                            the harsh response to a non-violent protest. 
+                        </p>
+                        
+                    </div>
+                    <div class="detail detail2">
+                        <span class="material-symbols-outlined" style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            location_on
+                            </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-25vw);" class="same-line-text">Daraa, Syria </p>
+                    </div>
+
+                   <div class="detail detail3">
+                    <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                        calendar_month
+                        </span>
+                        <p style="font-size: xx-large; transform:translateY(-8vh) translateX(-22vw);" class="same-line-text">March 6 - 23, 2011</p>
+                    </div>
+                    
+                    <div class="detail detail4" >
+                        <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                            info
+                            </span>
+                            <p style="transform:translateY(-8vh) translateX(5vw) ;" class="same-line-text">
+                                This tour is centered around the humanitarian violations that the Assad regime has committed against the
+                                people of Syria.<br><br> On March 6, 2011, the Daraa District of Daraa, Syria was the grounds for a pro-democracy
+                                outburst from the people. This outburst was fueled by the <br>successful toppling of the Egyptian and Tunisian
+                                regimes in 2010 and 2011 in favor for more democratic rule.<br><br> Police arrested adolescents for pro-democracy
+                                graffiti in Daraa, which sparked the first Arab Spring protests in Syria. Security forces<br> cracked down 
+                                on demonstrations and killed at least 100 people. By the end of March, protests had spread to other 
+                                cities. Between May 7 <br> and 29, Syrian security forces conducted raids in Homs, Damascus, Daraa, and several
+                                other cities to squelch protests.
+                            </p>
+                        </div>
+                        <div class="detail detail5">
+                            <span class="material-symbols-outlined"style="transform:scale(4) translateX(-10vw); align-self: center;">
+                                movie
+                            </span>
+                            <iframe style="transform: translateY(-15vh);" width="560" height="315" src="https://www.youtube.com/embed/MWVC727tXCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="detail detail6" style="height: 20vh; width: 70vw; background-color: lightgray; color:black; justify-content: center; align-content: center; transform: translateX(9vw); font-size: xx-large; font-weight: 300;">
+                            <p style="font-style: italic;">
+                                "If you want a serious interrogation, you send a prisoner to Jordan. If you want them to be tortured, 
+                                you send them to Syria."
+                            </p>
+
+                            <p> - Bob Baer, former CIA Official</p>
+                        </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
+<script src="general.js"></script>
